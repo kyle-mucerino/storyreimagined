@@ -1,0 +1,123 @@
+body {
+font-family: Georgia, "Times New Roman", serif;
+line-height: 1.7;
+margin: 0;
+background: #fafafa;
+color: #222;
+}
+
+main {
+max-width: 760px;
+margin: auto;
+padding: 20px;
+}
+
+.site-header {
+text-align: center;
+padding: 40px 20px 20px;
+border-bottom: 1px solid #ddd;
+}
+
+h1 {
+font-size: 2.4rem;
+margin-bottom: 10px;
+}
+
+.byline {
+font-style: italic;
+color: #666;
+}
+
+p {
+font-size: 1.1rem;
+margin-bottom: 1.2em;
+}
+
+blockquote {
+border-left: 4px solid #2a7f62;
+padding-left: 16px;
+margin: 25px 0;
+font-style: italic;
+color: #333;
+}
+
+figure {
+margin: 40px 0;
+}
+
+figure img {
+width: 100%;
+border-radius: 4px;
+}
+
+figcaption {
+font-size: 0.9rem;
+color: #666;
+margin-top: 8px;
+}
+
+/* Interactive timeline */
+
+.interactive {
+margin: 60px 0;
+padding: 20px;
+background: #f1f5f3;
+border-radius: 8px;
+}
+
+.interactive h2 {
+margin-top: 0;
+}
+
+.timeline details {
+margin: 12px 0;
+padding: 10px 14px;
+background: white;
+border-radius: 4px;
+border: 1px solid #ddd;
+cursor: pointer;
+}
+
+.timeline summary {
+font-weight: bold;
+cursor: pointer;
+}
+
+.timeline p {
+margin-top: 10px;
+font-size: 1rem;
+}
+
+/* Accessibility focus */
+
+summary:focus {
+outline: 3px solid #2a7f62;
+}
+
+/* Footer */
+
+footer {
+text-align: center;
+padding: 30px;
+font-size: 0.9rem;
+border-top: 1px solid #ddd;
+color: #666;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+
+h1 {
+font-size: 1.8rem;
+}
+
+main {
+padding: 15px;
+}
+
+p {
+font-size: 1rem;
+}
+
+}
